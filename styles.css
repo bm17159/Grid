@@ -1,0 +1,18 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 50px 5px;
+}
+.articles {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 50px 5px;
+}
+.flexs {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 50px 5px;
+}
+.flexs>div{
+    display: flex;
+}
